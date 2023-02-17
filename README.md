@@ -13,6 +13,7 @@ Major Areas:
  - Top-down Parser (Syntax Analyzer)
 
 Input - COVERED
+
 Lexical Analyzer
  - Return type is void
  - Using a queue (store the tokens)
@@ -31,4 +32,4 @@ Syntax Analyzer
 
 
 Possible error handling
-errorHandler(String s, char mode)
+ - errorHandler(String s, char mode)
