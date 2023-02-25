@@ -8,37 +8,6 @@ public class Syntax {
 	// integrity of the input program.
 	public static boolean PASS = true;
 	
-	public static void main(String[] args) {
-		q = new LinkedList<String>();
-		q.add("keyword");
-		q.add("ident");
-		q.add("new_line");
-		q.add("l_par");
-		q.add("keyword");
-		q.add("ident");
-		q.add("ident");
-		q.add("comma");
-		q.add("keyword");
-		q.add("ident");
-		q.add("r_par");
-		q.add("op");
-		q.add("l_brack");
-		q.add("keyword");
-		q.add("ident");
-		q.add("semi_colon");
-		q.add("ident");
-		q.add("assign");
-		q.add("ident");
-		q.add("op");
-		q.add("ident");
-		q.add("op");
-		q.add("ident");
-		q.add("r_brack");
-		q.add("semi_colon");
-		q.add("r_brack");
-		syntax();
-	}
-	
 	/**
 	 * Method handles all of the syntax analysis operations involved in the program. The method
 	 * will manipulate the PASS variable mentioned above if there is a syntax error in the input
